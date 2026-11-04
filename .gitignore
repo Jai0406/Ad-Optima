@@ -1,0 +1,24 @@
+# Environment variables & secrets
+.env
+
+# Python Virtual Environment
+myvenv/
+venv/
+ENV/
+env/
+
+# Python compiled bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases & Caches (SQLite & Trends cache)
+*.db
+*.sqlite3
+mlops_master.db
+trends_cache.db
+
+# Large ML Model Weights & Artifacts (Upload to Google Drive / Git LFS instead)
+*.keras
+*.pkl
+*.h5
